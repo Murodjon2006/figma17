@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Wix Madefor Text", serif;
+    background-color: #181818;
+    color: white;
+}
+body a:hover{
+    color: blue;
+    transform: scale(1.1);
+}
+header{
+   background-color:rgba(0, 0, 0, 0.448);
+    background-size: 100%;
+    background-position: center;
+    margin-bottom: 100px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.nav_link{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.nav_link a{
+    text-decoration: none;
+    color: white;
+}
+.nav_link a:hover{
+    color: blue;
+    transform: scale(1.1);
+}
+nav .container button{
+    padding:6px 24px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+nav .container button:hover{
+    color: aqua;
+    background-color:black;
+    transform: scale(1.1);
+}
+.hero{
+    text-align: center;
+    color: white;
+    padding: 100px 0px 100px 0px;
+    
+}
+.hero img{
+    width: 100%;
+}
+
+.hero h1{
+color: white;
+margin-bottom: 20px;
+font-size: 60px;
+}
+.hero p{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.hero button{
+    
+    padding:14px 18px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white; 
+}
+.hero button:hover  {
+color: white;
+background-color: blue;
+}
+.hero_button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+.contest_card{
+    border: 1px solid black;
+    flex-wrap: wrap;
+    text-align: center;
+    width:300px;
+    padding: 25px;
+    height:500px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.contest_card:hover{
+    box-shadow: 0px 0px 50px 0px blue;
+    transform: scale(1.02);
+}
+
+.contest_card h2{
+padding-top: 18px;
+margin-bottom: 18px;
+
+}
+.contest_card p{
+margin-bottom: 24px;
+font-size: 20px;
+}
+.contest_card button{
+border: none;
+padding: 12px 70px;
+background-color: blue;
+color: white;
+    margin-bottom: 14px;
+}
+
+.contest_card img{
+    width: 100%;
+ padding: px;
+}
+.contest_cards{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 
+20px;
+
+}
+.section1 h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.section1 p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contest_card1{
+    border: 1px solid black;
+    text-align: center;
+    width:300px;
+    height: 500px;
+    padding: 14px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    
+}
+.contest_card1:hover{
+    box-shadow: 0px 0px 50px 0px blue;
+    transform: scale(1.02);
+}
+
+.contest_card1 h2{
+padding-top: 18px;
+margin-bottom: 18px;
+
+}
+.contest_card1 p{
+margin-bottom: 24px;
+font-size: 20px;
+}
+.contest_card1 button{
+border: none;
+padding: 12px 70px;
+background-color: blue;
+color: white;
+    
+}
+
+.contest_card1 img{
+    width: 100%;
+ padding: 6px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  
+}
+.img img{
+    border-radius: 10px;
+   
+}
+.img img:hover{
+    box-shadow: 0px 0px 50px 0px blue;
+  transform:scale(1.1)
+
+}
+.section2 h1{
+    text-align: center;
+margin: 80px 0px 30px 0px;
+font-size: 40px;
+}
+.section2 p{
+    margin: 0px 0px 30px 0px; 
+    text-align: center; 
+}
+.img button{
+     
+    padding:10px 28px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white; 
+}
+.img button:hover{
+    color: white;
+    background-color: blue;
+}
+.section3{
+    text-align: center;
+    margin-top: 50px;
+}
+.section3_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+}
+.section3_logo img:nth-child(1):hover{
+    box-shadow: 0px 0px 30px 5px rgb(19, 153, 255);
+    transform: scale(1.2);
+    
+}
+.section3_logo img:nth-child(2):hover{
+    box-shadow: 0px 0px 30px 5px rgb(32, 253, 120);
+    transform: scale(1.2);
+}.section3_logo img:nth-child(3):hover{
+    box-shadow: 0px 0px 30px 5px rgb(247, 251, 31);
+    transform: scale(1.2);
+}.section3_logo img:nth-child(5):hover{
+    box-shadow: 0px 0px 30px 5px rgb(18, 235, 90);
+    transform: scale(1.2);
+}.section3_logo img:nth-child(6):hover{
+    box-shadow: 0px 0px 30px 5px rgb(242, 16, 16);
+    transform: scale(1.2);
+}
+.section3_logo img:nth-child(7):hover{
+    box-shadow: 0px 0px 30px 5px rgb(12, 150, 255);
+    transform: scale(1.2);
+}
+
+.section3 h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.section3 p{
+    margin-bottom: 30px;
+}
+.section3 button{
+    padding:10px 28px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white; 
+}
+.section3 button:hover{
+    color: white;
+    background-color: blue;
+}
+.bloc{
+    line-height: 40px;
+    text-align: center;
+}
+.bloc a{
+    text-decoration: none;
+    color: white;
+}
+.block{
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+.map{
+    display: flex;align-items: center;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+.map a{
+    text-decoration: none;
+    color: white;
+}
+.telephone{
+    display: flex;align-items: center;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+.telephone a{
+    text-decoration: none;
+    color: white;
+}
+
+.f_in{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+footer{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.phone{
+    display: none;
+}
+
+
+@media(max-width:476px){
+    .nav_link a{
+      display: none;
+    }
+    .phone{
+        display:block;
+    }
+    nav .container img{
+        width: 50%;
+    }
+    .hero h1{
+        font-size:50px ;
+    }
+    .hero p{
+        font-size:10px ;
+    }
+  .hero_button{
+    flex-wrap: wrap;
+  }
+  .contest_card1{
+    width: 76%;
+    height: 400px;
+  }
+.contest_card{
+    width: 76%;
+    height: 400px;
+}
+.contest_card h2{
+    font-size: 20px;
+}
+.contest_card p{
+    font-size: 15px;
+}
+.contest_card1 h2{
+    font-size: 20px;
+}
+.contest_card1 p{
+    font-size: 15px;
+}
+  .contest_cards{
+    display: flex;
+
+align-items: center;
+justify-content: center;
+gap: 
+20px;
+  }
+  .section1 h1{
+ font-size:30px;
+  }
+  .img img{
+    width: 80%;
+    flex-wrap: wrap;
+ 
+  }
+  .img img:nth-child(7){
+    display: none;
+  }
+  .img img:nth-child(6){
+    display: none;
+  }
+.img button{
+width: 40%;
+}
+.contest_card button{
+    border: none;
+    padding: 10px 50px;
+    }
+    .contest_card1 button{
+        border: none;
+        padding: 10px 50px;
+        }
+        .section2 h1{
+            font-size: 30px;
+
+        }
+        .section2 p{
+           font-size: 16px;
+        }
+        .block{
+            flex-wrap: wrap;
+            padding: 0px 80px 0px 80px; 
+        
+        }
+        .bloc{
+            margin-bottom: 20px;
+        }
+      
+        
+      }
